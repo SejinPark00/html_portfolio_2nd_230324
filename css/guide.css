@@ -1,0 +1,292 @@
+@charset "utf=8";
+
+@media (max-width:599px){
+    /* guide */
+    #guide {width: 100%; height: auto; margin: 0 auto;
+        display: flex; flex-direction: column;}
+    #guide > h3 {font-size: 40px; display: flex; justify-content: center; margin: 50px 0; color: #fff; font-weight: bold;}
+    #guide > h1 {font-size: 20px; color: #fff; margin-left: 15px; font-weight: bold;}
+    
+    /* guide_예매안내  */
+    .gdjion {width: 95%; height: auto; background-color: #fff;
+        display: flex; margin: 20px 10px;}
+    
+    .gdjion > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdjion > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdjion > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+    margin-left: 25px; margin-top: 15px;}
+    
+    .gdjion > dl > dt > .gdic1 {height: 30px; float: right;
+    margin-top: 10px;}
+    .gdjion > dl > dt > .gdic1:hover {cursor: pointer;}
+    
+    .gdjion > dl > dd {width: 98%; height: auto; background-color: #fff;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_입장안내  */
+    .gdcome1 {width: 95%; height: auto; background-color: #fff;
+        display: flex; margin: 20px 0 5px 10px;}
+    
+    .gdcome1 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdcome1 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdcome1 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdcome1 > dl > dt > .gdic2 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdcome1 > dl > dt > .gdic2:hover {cursor: pointer;}
+    
+    .gdcome1 > dl > dd {width: 100%; height: auto; background-color: #fff;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_반입가능물품  */
+    .gdcome2 {width: 95%; height: auto; background-color: #fff;
+        display: flex; margin: 5px 0 20px 10px;}
+    
+    .gdcome2 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdcome2 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdcome2 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdcome2 > dl > dt > .gdic3 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdcome2 > dl > dt > .gdic3:hover {cursor: pointer;}
+    
+    .gdcome2 > dl > dd {width: 100%; height: auto; background-color: #fff;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_관람안내  */
+    .gdwatch1 {width: 95%; height: auto; background-color: #fff;
+        display: flex; margin: 20px 0 5px 10px;}
+    
+    .gdwatch1 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdwatch1 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdwatch1 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdwatch1 > dl > dt > .gdic4 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdwatch1 > dl > dt > .gdic4:hover {cursor: pointer;}
+    
+    .gdwatch1 > dl > dd {width: 100%; height: auto; background-color: #fff;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_관람가능연령  */
+    .gdwatch2 {width: 95%; height: auto; background-color: #fff;
+        display: flex; margin: 5px 0 20px 10px;}
+    
+    .gdwatch2 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdwatch2 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdwatch2 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdwatch2 > dl > dt > .gdic5 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdwatch2 > dl > dt > .gdic5:hover {cursor: pointer;}
+    
+    .gdwatch2 > dl > dd {width: 100%; height: auto; background-color: #fff;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    .guidebtm {width: 100%; height: 20px;}
+    
+    }
+
+
+@media (min-width:600px) and (max-width:999px){
+    /* guide */
+    #guide {width: 83%; height: auto; margin: 0 auto;
+        display: flex; flex-direction: column; align-items: center;}
+    #guide > h3 {font-size: 40px; display: flex; justify-content: center; margin: 50px 0; color: #fff; font-weight: bold;}
+    #guide > h1 {font-size: 20px; color: #fff; margin-left: 15px; font-weight: bold;}
+    
+    /* guide_예매안내  */
+    .gdjion {width: 95%; height: auto; background-color: #dcdcdc;
+        display: flex; margin: 20px 10px;}
+    
+    .gdjion > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdjion > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdjion > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+    margin-left: 25px; margin-top: 15px;}
+    
+    .gdjion > dl > dt > .gdic1 {height: 30px; float: right;
+    margin-top: 10px;}
+    .gdjion > dl > dt > .gdic1:hover {cursor: pointer;}
+    
+    .gdjion > dl > dd {width: 98%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_입장안내  */
+    .gdcome1 {width: 95%; height: auto; background-color: #dcdcdc;
+        display: flex; margin: 20px 0 5px 10px;}
+    
+    .gdcome1 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdcome1 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdcome1 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdcome1 > dl > dt > .gdic2 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdcome1 > dl > dt > .gdic2:hover {cursor: pointer;}
+    
+    .gdcome1 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_반입가능물품  */
+    .gdcome2 {width: 95%; height: auto; background-color: #dcdcdc;
+        display: flex; margin: 5px 0 20px 10px;}
+    
+    .gdcome2 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdcome2 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdcome2 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdcome2 > dl > dt > .gdic3 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdcome2 > dl > dt > .gdic3:hover {cursor: pointer;}
+    
+    .gdcome2 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_관람안내  */
+    .gdwatch1 {width: 95%; height: auto; background-color: #dcdcdc;
+        display: flex; margin: 20px 0 5px 10px;}
+    
+    .gdwatch1 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdwatch1 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdwatch1 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdwatch1 > dl > dt > .gdic4 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdwatch1 > dl > dt > .gdic4:hover {cursor: pointer;}
+    
+    .gdwatch1 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    /* guide_관람가능연령  */
+    .gdwatch2 {width: 95%; height: auto; background-color: #dcdcdc;
+        display: flex; margin: 5px 0 20px 10px;}
+    
+    .gdwatch2 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+    
+    .gdwatch2 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+    .gdwatch2 > dl > dt > h2 {width:90%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+    
+    .gdwatch2 > dl > dt > .gdic5 {height: 30px; float: right;
+        margin-top: 10px;}
+    .gdwatch2 > dl > dt > .gdic5:hover {cursor: pointer;}
+    
+    .gdwatch2 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+        color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+    
+    .guidebtm {width: 100%; height: 50px;}
+    
+    }
+
+
+@media (min-width:1000px){
+        /* guide */
+        #guide {width: 62%; height: auto; margin: 0 auto; 
+            display: flex; flex-direction: column;}
+
+        #guide > h3 {font-size: 40px; display: flex; justify-content: center; margin: 50px 0; color: #fff; font-weight: bold;}
+        #guide > h1 {font-size: 20px; color: #fff; margin-left: 15px; font-weight: bold;}
+        
+        /* guide_예매안내  */
+        .gdjion {width: 98%; height: auto; background-color: #dcdcdc;
+            display: flex; margin: 20px 10px;}
+        
+        .gdjion > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+        
+        .gdjion > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+        .gdjion > dl > dt > h2 {width:95%; font-size: 17px; color: black;
+        margin-left: 25px; margin-top: 15px;}
+        
+        .gdjion > dl > dt > .gdic1 {height: 30px; float: right;
+        margin-top: 10px;}
+        .gdjion > dl > dt > .gdic1:hover {cursor: pointer;}
+        
+        .gdjion > dl > dd {width: 98%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+            color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+        
+        /* guide_입장안내  */
+        .gdcome1 {width: 98%; height: auto; background-color: #dcdcdc;
+            display: flex; margin: 20px 0 5px 10px;}
+        
+        .gdcome1 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+        
+        .gdcome1 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+        .gdcome1 > dl > dt > h2 {width:95%; font-size: 17px; color: black;
+            margin-left: 25px; margin-top: 15px;}
+        
+        .gdcome1 > dl > dt > .gdic2 {height: 30px; float: right;
+            margin-top: 10px;}
+        .gdcome1 > dl > dt > .gdic2:hover {cursor: pointer;}
+        
+        .gdcome1 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+            color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+        
+        /* guide_반입가능물품  */
+        .gdcome2 {width: 98%; height: auto; background-color: #dcdcdc;
+            display: flex; margin: 5px 0 20px 10px;}
+        
+        .gdcome2 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+        
+        .gdcome2 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+        .gdcome2 > dl > dt > h2 {width:95%; font-size: 17px; color: black;
+            margin-left: 25px; margin-top: 15px;}
+        
+        .gdcome2 > dl > dt > .gdic3 {height: 30px; float: right;
+            margin-top: 10px;}
+        .gdcome2 > dl > dt > .gdic3:hover {cursor: pointer;}
+        
+        .gdcome2 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+            color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+        
+        /* guide_관람안내  */
+        .gdwatch1 {width: 98%; height: auto; background-color: #dcdcdc;
+            display: flex; margin: 20px 0 5px 10px;}
+        
+        .gdwatch1 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+        
+        .gdwatch1 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+        .gdwatch1 > dl > dt > h2 {width:95%; font-size: 17px; color: black;
+            margin-left: 25px; margin-top: 15px;}
+        
+        .gdwatch1 > dl > dt > .gdic4 {height: 30px; float: right;
+            margin-top: 10px;}
+        .gdwatch1 > dl > dt > .gdic4:hover {cursor: pointer;}
+        
+        .gdwatch1 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+            color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+        
+        /* guide_관람가능연령  */
+        .gdwatch2 {width: 98%; height: auto; background-color: #dcdcdc;
+            display: flex; margin: 5px 0 20px 10px;}
+        
+        .gdwatch2 > dl {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between;}
+        
+        .gdwatch2 > dl > dt {width: 98%; height: 50px; display: flex; flex-direction: row;}
+        .gdwatch2 > dl > dt > h2 {width:95%; font-size: 17px; color: black;
+            margin-left: 25px; margin-top: 15px;}
+        
+        .gdwatch2 > dl > dt > .gdic5 {height: 30px; float: right;
+            margin-top: 10px;}
+        .gdwatch2 > dl > dt > .gdic5:hover {cursor: pointer;}
+        
+        .gdwatch2 > dl > dd {width: 100%; height: auto; background-color: #dcdcdc;  margin-bottom: 10px;
+            color: black; font-size: 12px;  margin:0 30px 10px 35px; line-height: 25px;}
+        
+        .guidebtm {width: 100%; height: 50px;}
+        
+        }

@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* max width */
+@media (max-width:599px){
+        /* header */
+        header  {width: 100%; height: auto;  position: absolute; left:0; top:0; z-index: 3;}
+
+        header.fixed{background-color: #666; opacity: 0.8; position:fixed;}
+        
+        header > #small {display: flex; align-items: center; justify-content: space-between;
+                background-color: #000; opacity: 0.7;}
+        
+        .logo {width: 40%; height: 60px; display: flex;}
+        .logo > a > img {width: 100%; height: 100%; }
+
+        .b {width: 100%; height:60px;}
+        .b > ul {width:100%;  float: right;}
+
+        .b > ul > li {width: 100%; height:50px; background-color: #fff;  opacity: 0.8; font-weight: bold;
+                display: flex; justify-content: center;}
+        
+        .b > ul > li > a {text-decoration: none; color: #666; font-size: 20px; margin-top: 15px; text-align: center;}
+        .b > ul > li > a:hover {color: darkorchid;  cursor: pointer;}
+
+        .b > ul > li > span {margin-top: 13px;}
+        .b > ul > li > span > a {text-decoration: none; color: #666; font-size: 20px; text-align: center;}
+        .b > ul > li > span > a:hover {color: darkorchid; cursor: pointer;}
+
+        .ct {width:35px; height: 35px;}
+
+        .ct {display:block;}
+        .b {display:none;}
+
+        /* slider */
+        #slider {width: 100%; height: 600px; background-image: url(img/header_main.jpg); background-size: cover;
+                background-attachment: fixed; background-position: center; }
+        
+        .sdbtm {width: 100%; height:800px;}
+
+        /* footer */
+        #footer {width: 100%; height: auto; margin: 0 auto; background-color: black;
+                display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        
+        .fotlogo {width: 80%; height: 80px; margin-top: 50px;}
+        .fotlogo > img {width: 100%; height: 100%;}
+        
+        .foticon {width: 50%; height: 55px; margin-top: 30px;}
+        .foticon > img {width: 100%; height: 100%;}
+        .foticon > img:hover {cursor: pointer;}
+        
+        .fottext {width: 70%; height: 100px; text-align: center; margin: 30px 0 50px 0;}
+        .fottext > p {font-size: 15px; color: #fff; line-height: 23px;}
+
+        }
+
+/* min width 600 and max-width:999px */
+@media (min-width:600px) and (max-width:999px){
+        /* header */
+        header  {width: 100%; height: auto;  position: absolute; left:0; top:0; z-index: 3;}
+        
+        header.fixed{background-color: #666; opacity: 0.8; position:fixed;}
+        
+        header > #small {display: flex; align-items: center; justify-content: space-between;
+                background-color: #000; opacity: 0.7;}
+        
+        .logo {width: 40%; height: 60px; display: flex;}
+        .logo > a > img {width: 100%; height: 100%; }
+
+        .b {width: 100%;}
+        .b > ul {width:100%; display: flex; flex-direction: column;}
+
+        .b > ul > li {width: 100%; height:50px; background-color: #fff; opacity: 0.8; font-weight: bold;
+                display: flex; justify-content: center;}
+        
+        .b > ul > li > a {text-decoration: none; color: #666; font-size: 20px; margin-top: 15px; text-align: center;}
+        .b > ul > li > a:hover {color: darkorchid;  cursor: pointer;}
+
+        .b > ul > li > span {margin-top: 13px;}
+        .b > ul > li > span > a {text-decoration: none; color: #666; font-size: 20px; text-align: center;}
+        .b > ul > li > span > a:hover {color: darkorchid; cursor: pointer;}
+
+        .ct {width:35px; height: 35px;}
+        
+        .ct {display:block;}
+        .b {display:none;}
+
+
+        /* slider */
+        #slider {width: 100%; height: 600px; background-image: url(img/header_main.jpg); background-size: cover;
+                background-attachment: fixed; background-position: center; }
+
+        .sdbtm {width: 100%; height:800px;}
+
+        /* footer */
+        #footer {width: 100%; height: auto; margin: 0 auto; background-color: black;
+                display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        
+        .fotlogo {width: 40%; height: 70px;  margin-top: 50px;}
+        .fotlogo > img {width: 100%; height: 100%;}
+        
+        .foticon {width: 40%; height: 60px;  margin-top: 20px;}
+        .foticon > img {width: 100%; height: 100%;}
+        .foticon > img:hover {cursor: pointer;}
+        
+        .fottext {width: 50%; height: 100px; text-align: center; margin: 20px 0 50px 0;}
+        .fottext > p {font-size: 15px; color: #fff; line-height: 23px;}
+
+        }
+        
+/* min width 1000 */
+@media (min-width:1000px){
+        /* header */
+        header  {width: 100%; height: auto; background-color: #000; opacity: 0.7; position: absolute; left:0; top:0; z-index: 3;
+                display: flex; flex-flow: row wrap; justify-content: space-around;}
+        
+        /* header scroll */
+        header.fixed{background-color: #666; opacity: 0.8; position:fixed;}
+
+        .logo {width: 100%; height: 60px;}
+        .logo > a > img {width: 100%; height: 100%; }
+        
+        .b {width: 50%; height: 50px; margin-top: 5px; float: right;}
+
+        .b > ul {width: 90%; height: 100%; display: flex; }
+        .b > ul > li {width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; font-weight: bold;}
+
+        .b > ul > li > a {text-decoration: none; color: #fff; font-size: 18px;}
+        .b > ul > li > a:hover {color: darkorchid;  cursor: pointer;}
+
+        .b > ul > li > span > a {text-decoration: none; color: #fff; font-size: 18px; }
+        .b > ul > li > span > a:hover {color: darkorchid;  cursor: pointer;}
+        
+        .ct {display:none;}
+        .b {display:block;}
+
+        /* slider */
+
+        #slider {width: 100%; height: auto; background-image: url(img/header_main.jpg); background-size: cover;
+                background-attachment: fixed; background-position: center; }
+
+        .sdbtm {width: 100%; height:800px;}
+
+        /* footer */
+        #footer {width: 100%; height: auto; margin: 0 auto; background-color: black;
+        display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+        .fotlogo {width: 30%; height: 80px; margin-top: 80px;}
+        .fotlogo > img {width: 100%; height: 100%;}
+        
+        .foticon {width: 15%; height: 50px; margin-top: 20px;}
+        .foticon > img {width: 100%; height: 100%;}
+        .foticon > img:hover {cursor: pointer;}
+        
+        .fottext {width: 35%; height: 70px; text-align: center; margin: 20px 0 50px 0;}
+        .fottext > p {font-size: 12px; color: #fff; line-height: 20px;}
+
+        }

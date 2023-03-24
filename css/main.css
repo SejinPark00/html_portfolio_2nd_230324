@@ -1,0 +1,352 @@
+@charset "utf-8";
+
+section {width: 100%; height: auto; margin: 0 auto; background-color: black;}
+
+    /* max 599px */
+        @media (max-width:599px){
+        /* news */
+        #news {width: 100%; height: auto; margin: 0 auto; color: #fff; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+        #news > h3 {font-size: 40px; display: flex; justify-content: center; margin-top: 40px; font-weight: bold;}
+
+        .newsboxs {width: 95%; height:auto; margin: 50px;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+
+        .newsbox{width: 100%; margin-top: 5px;}
+
+        .newsimg {width: 100%; height: 300px; background-color: #fff;}
+        .newsimg > a > img {width: 100%; height: 100%;}
+        .newsimg > a > img:hover {opacity: 0.8;}
+
+        .newstext {width: 100%; height: auto; padding: 10px 0; background-color: #222;}
+        .newstext > h1 > a {text-decoration: none; font-size: 14px; color: #fff; margin-left: 10px;}
+        .newstext > h1 > a > span {text-decoration: none; font-size: 14px; color: violet; }
+        .newstext > p > a {text-decoration: none; font-size: 12px; color: #dcdcdc; margin-left: 10px;}
+
+        /* line up */
+        #line {width: 100%; height: auto; margin: 0 auto;  
+            display: flex; flex-flow: row wrap; justify-content: center; color: #fff;}
+        #line > h3 {width: 100%; font-size: 30px;  margin-bottom: 30px; margin-top: 30px; font-weight: bold;
+            display: flex; justify-content: center;}
+
+        .lineslide {width:100%; display: flex; flex-direction: column; justify-content: center;}
+
+        .lineboxs {width: 95%; height:auto; margin: 10px 0;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+
+        .linebox {width: 100%; height:auto; margin-top: 10px; background-color: #fff;}
+        .linebox > .lineimg {width: 100%; height: auto; margin-bottom: -2px;}
+        .lineimg > a > img {width: 100%; height: 100%;}
+        .lineimg > a > img:hover {opacity: 0.8;}
+
+        .linetext {width: 100%; height: auto; padding: 10px 0; background-color: #222; text-align: center;}
+        .linetext > h1 > a {text-decoration: none; font-size: 20px; color: #fff;}
+
+        .linebtm {width: 100%; height:20px;}
+
+        /* ticket */
+        #ticket {width: 100%; height: auto; margin: 0 auto; color: #fff; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+        #ticket > h3 {font-size: 40px; display: flex; justify-content: center; margin-top: 10px; font-weight: bold;}
+    
+        .ticboxs {width: 100%; height:auto; margin: 50px;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+            
+        .ticbox{width: 95%; background-color: #fff; margin-top: 5px;}
+        .ticimg {width: 100%; height: 300px;}
+        .ticimg > a > img {width: 100%; height: 300px;}
+        .ticimg > a > img:hover {opacity: 0.8;}
+    
+        .tictext {width: 100%; height: auto; padding: 10px 0; background-color: #222;}
+        .tictext > h1 > a {text-decoration: none; font-size: 14px; color: #fff; margin-left: 10px;}
+        .tictext > h1 > a > span {text-decoration: none; font-size: 14px; color: violet; }
+        .tictext > p > a {text-decoration: none; font-size: 12px; color: #dcdcdc; margin-left: 10px;}
+
+        /* video */
+        #video {width: 100%; height: auto; margin: 0 auto; background-color: darkorchid; 
+            display: flex; flex-flow: row wrap; justify-content: center;}
+        
+        .vdtext {width: 100%; height:100px; text-align: center;}
+        .vdtext > h3 { font-size: 40px; margin-top:20px; color: #fff; font-weight: bold;}
+        
+        .videoslide {width:100%; display: flex; flex-direction: column; justify-content: center; }
+        .videoboxs {width: 100%; height:auto; margin: 10px 0;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+
+        .videobox {width: 95%;}
+        .videoimg {width: 100%; height: 250px; background-color: #fff;}
+        .videoimg > a > img {width: 100%; height: 250px;}
+        .videoimg > a > img:hover{opacity: 0.8;}
+
+        .videotext {width: 100%; height: auto;  padding-top: 5px;}
+        .videotext > h1 > a {text-decoration: none; font-size: 14px; color:#fff; margin-left: 10px;}
+        .videotext > p > a {text-decoration: none; font-size: 12px; color: #dcdcdc; margin-left: 10px;}
+
+        /* gallery */
+        #gallery {width: 100%; height: auto; margin: 0 auto; 
+            display: flex; flex-flow: column ; justify-content: center; align-items: center; align-content: center;}
+        #gallery > h3 {width:100%; font-size: 40px; display: flex; justify-content: center; margin-top: 30px; color: #fff; font-weight: bold;}
+        #gallery > h4 {width:100%; font-size: 20px; display: flex; justify-content: center; margin: 20px 0; color: #fff;}
+
+        
+        .galleryboxs {width: 100%; height:auto; margin: 5px;
+            display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+
+        .gallerybox{width: 95%;}
+        .galleryimg {width: 100%; height: 300px; overflow: hidden;}
+        .galleryimg > a > img {width: 100%; height: 350px; transform:scale(1);  transition: 0.5s;}
+        .galleryimg > a > img:hover{transform: scale(1.2);}
+
+        .galbtnbox {width: 100%; display: flex; justify-content: center;}
+        .galbtn {width: 150px; height: 30px; background-color: #fff; border-radius: 10px; text-align: center;
+            margin: 30px 0 40px 0; padding-top: 10px;}      
+        .galbtn > a {text-decoration: none; color: purple; font-size: 18px;}
+        .galbtn > a:hover {opacity: 0.8;}
+
+        /* sponsor */
+        #sponsor {width: 100%; height: auto; margin: 0 auto; 
+        display: flex; flex-direction: column ; justify-content: space-evenly; align-items: center; align-content: center;
+        background-image: url(img/footer_baner.jpg); background-size:cover; background-position: center; background-attachment: fixed;}
+
+        .spontext {display: flex; justify-content: center;}
+        .spontext > h3 { font-size: 40px; margin-top: 50px; color: #fff; font-weight: bold;}
+        .spontext > h4 {font-size: 20px; margin: 20px 0; color: #fff; display: none;}
+        
+        .sponsorbox {width: 90%; height: 250px; margin-top: 50px;}
+        .sponimg {width: 100%; height: 100%; border-radius: 20px; background-color: #fff;}
+        .sponimg > img {width: 100%; height: 100%;}
+
+        .sponbtm {width: 100%; height:50px;}
+        }
+
+    /* min 600px and max 999px */
+        @media (min-width:600px) and (max-width:999px){
+
+        /* news */
+        #news {width: 100%; height: auto; margin: 0 auto; color: #fff; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+        #news > h3 {font-size: 40px; display: flex; justify-content: center; margin-top: 30px; font-weight: bold;}
+
+        #news > .newsboxs {width: 100%; height:auto; margin: 50px;
+        display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;}
+
+        .newsbox {width: 80%; margin-top: 10px;}
+        .newsimg {width: 100%; height: 350px; overflow: hidden; background-color: #fff;}
+        .newsimg > a > img {width: 100%; height: 400px;}
+        .newsimg > a > img:hover {opacity: 0.8;}
+
+        .newstext {width: 100%; height: 60px; padding: 10px 0; background-color: #222;}
+        .newstext > h1 > a {text-decoration: none; font-size: 15px; color: #fff; margin-left: 10px;}
+        .newstext > h1 > a > span {text-decoration: none; font-size: 15px; color: violet; }
+        .newstext > p > a {text-decoration: none; font-size: 13px; color: #dcdcdc; margin-left: 10px;}
+
+        /* line up */
+        #line {width: 100%; height: auto; margin: 0 auto; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        #line > h3 {width: 100%; font-size: 40px;  margin-bottom: 30px; font-weight: bold;
+            display: flex; justify-content: center; color: #fff;}
+
+        .lineboxs {width: 100%; height:auto; margin: 10px 0;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;}
+            
+        .linebox {width: 80%; height: auto; background-color: #fff;}
+
+        .linebox > .lineimg {width: 100%; height: auto; margin-bottom: -2px;}
+        .lineimg > a > img {width: 100%; height: 100%;}
+        .lineimg > a > img:hover {opacity: 0.8;}
+
+        .linetext {width: 100%; height: auto; padding: 10px 0; background-color: #222; text-align: center;}
+        .linetext > h1 > a {text-decoration: none; font-size: 20px; color: #fff;}
+
+        .linebtm {width: 100%; height:50px;}
+
+        /* ticket */
+        #ticket {width: 100%; height: auto; margin: 0 auto; color: #fff; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        #ticket > h3 {font-size: 40px; display: flex; justify-content: center; margin-bottom: 30px; font-weight: bold;}
+    
+        .ticboxs {width: 100%; height:auto; margin: 10px 0;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;}
+
+        .ticbox{width: 80%;  margin-top: 10px;}
+
+        .ticimg {width: 100%; height: 300px; background-color: #fff; overflow: hidden;}
+        .ticimg > a > img {width: 100%; height: 100%;}
+        .ticimg > a > img:hover {opacity: 0.8;}
+    
+        .tictext {width: 100%; height: auto; padding: 10px 0; background-color: #222;}
+        .tictext > h1 > a {text-decoration: none; font-size: 15px; color: #fff; margin-left: 10px;}
+        .tictext > h1 > a > span {text-decoration: none; font-size: 15px; color: violet; }
+        .tictext > p > a {text-decoration: none; font-size: 13px; color: #dcdcdc; margin-left: 10px;}
+
+        .ticbtm {width: 100%; height:50px;}
+
+        /* video */
+        #video {width: 100%; height: auto; margin: 0 auto; background-color:  darkorchid; 
+        display: flex; flex-flow: row wrap; justify-content: center;}
+        
+        .vdtext {width: 100%; height:100px; text-align: center;}
+        .vdtext > h3 { font-size: 40px; margin: 30px 0; color: #fff; font-weight: bold;}
+        
+        .videoslide {width:80%;  display: flex; flex-direction: column; justify-content: center; }
+        .videoboxs {width: 100%; height:auto;  margin: 10px 0;
+        display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+
+        .videobox {width: 100%;}
+        .videoimg {width: 100%; height: 350px; background-color: #fff;}
+        .videoimg > a > img {width: 100%; height: 100%;}
+        .videoimg > a > img:hover {opacity: 0.8;}
+
+        .videotext {width: 100%; height: 60px; padding: 10px 0;}
+        .videotext > h1 > a {text-decoration: none; font-size: 14px; color:#fff; margin-left: 10px;}
+        .videotext > p > a {text-decoration: none; font-size: 12px; color: #dcdcdc; margin-left: 10px;}
+
+        /* gallery */
+        #gallery {width: 100%; height: auto; margin: 0 auto;
+        display: flex; flex-flow: column ; justify-content: center; align-items: center; align-content: center;}
+        #gallery > h3 {width:100%; font-size: 40px; display: flex; justify-content: center; margin-top: 30px; color: #fff; font-weight: bold;}
+        #gallery > h4 {width:100%; font-size: 20px; display: flex; justify-content: center; margin: 20px 0; color: #fff;}
+
+        
+        .galleryboxs {width: 80%; height:auto; margin: 20px;
+        display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+        .gallerybox{width: 100%;}
+        .galleryimg {width: 100%; height: 350px; overflow: hidden;}
+        .galleryimg > a > img {width: 100%; height: 100%; transform:scale(1);  transition: 0.5s;}
+        .galleryimg > a > img:hover {transform: scale(1.2);}
+
+        .galbtnbox {width: 100%; display: flex; justify-content: center;}
+        .galbtn {width: 150px; height: 30px; background-color: #fff; border-radius: 10px; text-align: center;
+            margin: 30px 0 40px 0; padding-top: 10px;}      
+        .galbtn > a {text-decoration: none; color: purple; font-size: 18px;}
+        .galbtn > a:hover {opacity: 0.8;}
+
+        /* sponsor */
+        #sponsor {width: 100%; height: auto; margin: 0 auto; 
+        display: flex; flex-direction: column ; justify-content: space-evenly; align-items: center; align-content: center;
+        background-image: url(img/footer_baner.jpg); 
+        background-size: cover; background-attachment: fixed;  background-position: center;}
+
+        .spontext {width: 20%; height:100px;}
+        .spontext > h3 { font-size: 40px; margin-top: 50px; color: #fff; font-weight: bold;}
+        .spontext > h4 {font-size: 20px; margin: 20px 0; color: #fff; display: none;}
+        
+        .sponsorbox {width: 80%; height: 300px; margin-top: 50px; }
+        .sponimg {width: 100%; height: 100%; border-radius: 20px; background-color: #fff;}
+        .sponimg > img {width: 100%; height: 100%;}
+
+        .sponbtm {width: 100%; height:80px; display: flex;}
+        }
+
+    /* min 1000px */
+        @media (min-width:1000px){
+        /* news */
+        #news {width: 100%; height: auto; margin: 0 auto; color: #fff;
+        display: flex; flex-flow: row wrap; justify-content: center;}
+        #news > h3 {width: 100%; font-size: 40px;  margin-top: 30px; font-weight: bold;
+            display: flex; justify-content: center; color: #fff;}
+
+        #news > .newsboxs {width: 93%; height:auto; margin: 30px 0;
+        display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+        .newsbox{width: 50%; margin: 0 5px;}
+        .newsimg {width: 100%; height: 300px; background-color: #fff;}
+        .newsimg > a > img {width: 100%; height: 100%;}
+        .newsimg > a > img:hover {opacity: 0.8; }
+
+        .newstext {width: 100%; height: 60px; padding: 10px 0; background-color: #222;}
+        .newstext > h1 {width: 97%; margin-left: 5px;}
+        .newstext > h1 > a {text-decoration: none; font-size: 12px; color:#fff; }
+        .newstext > h1 > a > span {text-decoration: none; font-size: 12px; color: violet; }
+        .newstext > p > a {text-decoration: none; font-size: 11px; color: #dcdcdc; margin-left: 5px;}
+
+        /* line up */
+        #line {width: 100%; height: auto; margin: 0 auto; 
+            display: flex; flex-flow: row wrap; justify-content: center;}
+        #line > h3 {width: 100%; font-size: 40px; margin: 40px 0; font-weight: bold;
+            display: flex; justify-content: center; color: #fff;}
+
+        .lineboxs {width: 25%; height:auto; margin: 10px; margin-bottom: 50px; background-color: red; 
+            display: flex; flex-direction: column; justify-content: center;}
+
+        .linebox {width: 100%; height:auto; background-color: #fff; }
+        .linebox > .lineimg {width: 100%; height: 100%}
+        .lineimg > a > img {width: 100%; height: 100%;}
+        .lineimg > a > img:hover {opacity: 0.8;}
+        
+        .linetext {width: 100%; height: auto; padding: 10px 0; background-color: #222; text-align: center;}
+        .linetext > h1 > a {text-decoration: none; font-size: 15px; color: #fff;}
+
+        .linebtm {width: 100%; height:10px;}
+
+        /* ticket */
+        #ticket {width: 100%; height: auto; margin: 0 auto; color: #fff;
+            display: flex; flex-flow: row wrap; justify-content: center;}
+        #ticket > h3 {width: 100%; font-size: 40px;  margin: 15px 0; font-weight: bold;
+            display: flex; justify-content: center; color: #fff;}
+        
+        .ticboxs {width: 80%; height:auto; margin: 50px;
+            display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+        .ticbox{width: 70%; margin: 0 5px; background-color: #fff;}
+        .ticimg {width: 100%; height: 280px;}
+        .ticimg > a > img {width: 100%; height: 100%;}
+        .ticimg > a > img:hover {opacity: 0.8;}
+        
+        .tictext {width: 100%; height: 60px; padding: 10px 0; background-color: #222;}
+        .tictext > h1 > a {text-decoration: none; font-size: 14px; color:#fff; margin-left: 5px;}
+        .tictext > h1 > a > span {text-decoration: none; font-size: 14px; color: violet; }
+        .tictext > p > a {text-decoration: none; font-size: 12px; color: #dcdcdc; margin-left: 5px;}
+
+        /* video */
+        #video {width: 100%; height: auto; margin: 0 auto; background-color: darkorchid; 
+        display: flex; flex-flow: row wrap; justify-content: center;}
+
+        .vdtext {width: 13%; height:100px; text-align: center;}
+        .vdtext > h3 {font-size: 40px; margin: 40px 0 0 -60px; color: #fff; font-weight: bold;}
+        
+        .videoslide {width:80%; margin-top: 80px; display: flex; flex-direction: row; justify-content: center; }
+        .videoboxs {width: 90%; height:auto; margin: 10px;
+        display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+        .videobox {width: 100%;}
+        .videoimg {width: 100%; height: 200px; background-color: #fff;}
+        .videoimg > a > img {width: 100%; height: 200px;}
+        .videoimg > a > img:hover {opacity: 0.8;}
+
+        .videotext {width: 100%; height: 60px; margin: 10px 5px; line-height: 10px;}
+        .videotext > h1 > a {text-decoration: none; font-size: 14px; color:#fff;}
+        .videotext > p > a {text-decoration: none; font-size: 12px; color: #dcdcdc;}
+
+        /* gallery */
+        #gallery {width: 100%; height: auto; margin: 0 auto;  
+        display: flex; flex-flow: row wrap ; justify-content: center; align-items: center; align-content: center;}
+        #gallery > h3 {width:100%; font-size: 40px; display: flex; justify-content: center; margin-top: 50px; color: #fff; font-weight: bold;}
+        #gallery > h4 {width:100%; font-size: 20px; display: flex; justify-content: center; margin: 20px 0; color: #fff;}
+
+        
+        .galleryboxs {width: 25%; height:auto; margin: 20px;
+        display: flex; flex-direction: row; justify-content: center; align-items: center; align-content: center;}
+        .gallerybox{width: 100%; background-color: red;}
+        .galleryimg {width: 100%; height: 200px; overflow: hidden;}
+        .galleryimg > a > img {width: 100%; height: 200px; transform:scale(1);  transition: 0.5s;}
+        .galleryimg > a > img:hover {transform: scale(1.2);}
+
+        .galbtnbox {width: 100%; display: flex; justify-content: center;}
+        .galbtn {width: 150px; height: 40px; background-color: #fff; border-radius: 10px; text-align: center;
+            margin: 30px 0 40px 0; padding-top: 15px;}      
+        .galbtn > a {text-decoration: none; color: purple; font-size: 18px;}
+        .galbtn > a:hover {opacity: 0.8;}
+
+        /* sponsor */
+        #sponsor {width: 100%; height: auto; margin: 0 auto; 
+        display: flex; flex-flow: row wrap ; justify-content: start; align-items: center; align-content: center;
+        background-image: url(img/footer_baner.jpg); background-size:cover; background-attachment: fixed; background-position: center;}
+
+        .spontext {width: 25%; height:100px; float: left; margin: -100px 4% 0 50px; ;}
+        .spontext > h3 { font-size: 40px; color: #fff; font-weight: bold;}
+        .spontext > h4 {font-size: 20px; margin: 20px 0; color: #fff; display: block;}
+        
+        .sponsorbox {width: 35%; height: 200px; margin-top: 80px; }
+        .sponimg {width: 100%; height: 100%; border-radius: 20px; background-color: #fff; }
+        .sponimg > img {width: 100%; height: 100%;}
+
+        .sponbtm {width: 100%; height:80px;}
+        }
